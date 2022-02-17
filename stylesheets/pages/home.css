@@ -1,0 +1,76 @@
+body {
+  background-color: var(--default-color);
+}
+
+/* landing page */
+
+.landing-section {
+  max-width: 80%;
+  margin: auto;
+  padding: 2rem;
+  min-height: calc(100vh - 98px);
+}
+
+.hero-content {
+  padding: 2rem;
+  gap: 2rem;
+  max-width: 50%;
+}
+
+.hero-head {
+  font-size: var(--font-s-xl);
+  line-height: inherit;
+  color: var(--text-color);
+}
+
+.hero-desc {
+  font-size: var(--font-s-lg);
+  font-weight: var(--font-w-medium);
+  color: var(--off-white);
+}
+
+.hero-btns .btn {
+  width: fit-content;
+  gap: 1rem;
+  font-size: var(--font-s-lg);
+}
+
+.section-change {
+  background-color: var(--grey);
+  max-width: 100%;
+  height: 2px;
+  margin: 1.5rem 0;
+}
+
+/* Media query for small devices */
+
+@media only screen and (max-width: 992px) {
+  .landing-section {
+    flex-direction: column;
+  }
+
+  .hero-content {
+    order: 1;
+    padding: 2rem 0;
+    max-width: 100%;
+  }
+
+  .hero-head,
+  .hero-desc,
+  .hero-btns {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .hero-head {
+    font-size: var(--font-s-lg);
+  }
+
+  .hero-desc,
+  .hero-btns .btn {
+    font-size: var(--font-s-base);
+  }
+}

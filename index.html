@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Compact Quiz | Home</title>
+    <script src="https://kit.fontawesome.com/4f4010c8fe.js" crossorigin="anonymous"></script>
+    <link rel="shortcut icon" href="./assets/logo/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="./stylesheets/style.css">
+</head>
+
+<body>
+    <header class="header-container justify-content-between">
+        <div class="header-brand">
+            <img src="./assets/logo/logo.png" alt="logo">
+            <a href="./index.html" class="header-logo">Compact Quiz</a>
+        </div>
+        <div class="header-src d-flex">
+            <input type="text" name="search" placeholder="What are you looking for?" class="header-src-input">
+            <button type="submit" class="header-src-btn d-flex justify-content-center align-items-center"><i
+                    class="fa fa-search"></i></button>
+        </div>
+        <nav class="header-nav">
+            <ul class="header-list">
+                <a href="./pages/login.html" class="d-flex flex-col align-items-center justify-content-center">
+                    <button class="btn btn-primary">Login</button>
+                </a>
+                <div class="d-flex flex-col align-items-center justify-content-center">
+                    <button class="btn btn-secondary" id="modal-open-btn">Rule Book</button>
+                </div>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div class="landing-section d-flex align-items-center">
+            <div class="hero-content d-flex flex-col">
+                <h1 class="hero-head">Electronics & Gadgets Quiz</h1>
+                <p class="hero-desc">Who is the maker of the iPhone? In what year was the DVD introduced? The iPod? Scan
+                    these questions and test your knowledge of electronics and gadgets.
+                </p>
+                <div class="hero-btns">
+                    <a href="./pages/categories.html"
+                        class="btn btn-primary d-flex align-items-center justify-contents-center">Get Started <i
+                            class="fas fa-arrow-right"></i></a>
+                </div>
+            </div>
+            <div class="hero-banner"><img src="./assets/landing.svg" alt="landing-hero" class="img-responsive">
+            </div>
+        </div>
+    </main>
+
+    <footer class="d-flex flex-col justify-content-center align-items-center">
+        <div class="footer-head">Made with &#10084;&#65039; By <a href="#" target="_blank"
+                class="footer-head-link">Tanishq Kumar</a> | &copy; 2022</div>
+        <div class="social-buttons d-flex align-items-center flex-wrap">
+            <a href="https://github.com/tanishq20" target="_blank"
+                class="social-icon d-flex justify-content-center align-items-center github-icon">
+                <i class="fa fa-github" aria-hidden="true"></i>
+            </a>
+            <a href="https://www.linkedin.com/in/tanishq-kumar-b03a52194/"
+                class="social-icon d-flex justify-content-center align-items-center linkedin-icon" target="_blank">
+                <i class="fa fa-linkedin" aria-hidden="true"></i>
+            </a>
+            <a href="https://twitter.com/tanishqkumar_20" target="_blank"
+                class="social-icon d-flex justify-content-center align-items-center twitter-icon">
+                <i class="fa fa-twitter" aria-hidden="true"></i>
+            </a>
+        </div>
+    </footer>
+
+    <div class="modal-wrapper position-fixed align-items-center justify-content-center" id="modal-toggle">
+        <div class="modal-alert-container position-relative rounded-5">
+            <button class="dismiss-btn" id="modal-close-btn"><i
+                    class="far fa-times-circle dismiss-btn-icon"></i></button>
+            <h3 class="modal-alert-header">Rules for Quiz</h3>
+            <p class="modal-alert-body d-flex flex-col">
+                <span># Lorem ipsum dolor sit amet consectetur adipisicing elit.</span>
+                <span># Lorem ipsum dolor sit amet consectetur adipisicing elit.</span>
+                <span># Lorem ipsum dolor sit amet consectetur adipisicing elit.</span>
+                <span># Lorem ipsum dolor sit amet consectetur adipisicing elit.</span>
+                <span># Lorem ipsum dolor sit amet consectetur adipisicing elit.</span>
+                <span># Lorem ipsum dolor sit amet consectetur adipisicing elit.</span>
+            </p>
+        </div>
+    </div>
+    <script src="./pages/modal.js"></script>
+</body>
+
+</html>
