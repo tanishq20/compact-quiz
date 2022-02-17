@@ -1,0 +1,15 @@
+.quiz-result-marks {
+  font-size: var(--font-s-md);
+  font-weight: var(--font-w-semibold);
+  color: var(--active-color);
+  text-align: center;
+  padding: 1rem 0;
+}
+
+.quiz-crt-ans {
+  background-color: var(--success-800);
+}
+
+.quiz-wrong-ans {
+  background-color: var(--danger-800);
+}
