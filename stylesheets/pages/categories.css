@@ -1,0 +1,21 @@
+.categories-wrapper {
+  padding: 2rem;
+}
+
+.categories-showcase {
+  background-color: var(--default-light);
+}
+
+.categories-heading {
+  font-size: var(--font-s-xl);
+  font-weight: var(--font-w-semibold);
+  text-align: center;
+  padding: 2rem 0;
+  color: var(--text-color);
+  border-bottom: 1px solid var(--white);
+}
+
+.categories-items {
+  padding: 2rem;
+  gap: 2rem;
+}
