@@ -1,7 +1,6 @@
 .header-container {
   background-color: var(--secondary-400);
   padding: 1rem 3.2rem;
-  justify-content: space-between;
 }
 
 .header-logo {
@@ -10,18 +9,18 @@
 
 .header-brand:hover {
   color: var(--text-color);
+  transition: all 0.3s ease-in-out;
 }
 
 .header-src {
   max-width: 100%;
-  display: flex;
 }
 
 .header-src-input {
   width: 100%;
   border: 3px solid var(--secondary-hover);
   padding: 5px;
-  height: 36px;
+  max-height: 36px;
   border-radius: 5px 0 0 5px;
   outline: 2px solid transparent;
   outline-offset: 2px;
@@ -36,17 +35,20 @@
 }
 
 .header-src-btn {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 40px;
-  height: 36px;
+  max-height: 36px;
   border: 1px solid var(--secondary-hover);
   background-color: var(--secondary-hover);
   color: var(--white);
   border-radius: 0 5px 5px 0;
   cursor: pointer;
   font-size: var(--font-s-xl);
+  padding: 0.8rem;
+}
+
+.header-src-btn:hover {
+  border: 1px solid var(--black);
+  background-color: var(--black);
+  transition: all 0.3s ease-in-out;
 }
 
 .header-nav {
@@ -55,23 +57,5 @@
 }
 
 .header-list {
-  gap: 3rem;
-}
-
-.header-item {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  gap: 5px;
-}
-
-.badge {
-  cursor: pointer;
-}
-
-.header-item-text {
-  font-size: var(--font-s-base);
-  font-weight: var(--font-w-medium);
-  color: var(--text-color);
+  gap: 1rem;
 }

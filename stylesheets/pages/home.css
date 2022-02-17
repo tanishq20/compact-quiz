@@ -1,19 +1,10 @@
 body {
   background-color: var(--default-color);
-  display: flex;
-  flex-direction: column;
-  min-height: 100vh;
-}
-
-:root {
-  --black-light: #00000080;
 }
 
 /* landing page */
 
 .landing-section {
-  display: flex;
-  align-items: center;
   max-width: 80%;
   margin: auto;
   padding: 2rem;
@@ -21,8 +12,6 @@ body {
 }
 
 .hero-content {
-  display: flex;
-  flex-direction: column;
   padding: 2rem;
   gap: 2rem;
   max-width: 50%;
@@ -40,15 +29,9 @@ body {
   color: var(--off-white);
 }
 
-.hero-btns {
-  display: flex;
-  gap: 1rem;
-}
-
 .hero-btns .btn {
-  display: flex;
+  width: fit-content;
   gap: 1rem;
-  align-items: center;
   font-size: var(--font-s-lg);
 }
 

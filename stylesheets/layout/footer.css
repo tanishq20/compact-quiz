@@ -1,10 +1,6 @@
 /* footer css */
 
 footer {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
   background: var(--secondary-400);
   padding: 2rem 0;
   gap: 1rem;
@@ -28,17 +24,11 @@ footer {
 
 /* social media css  */
 .social-buttons {
-  display: flex;
-  align-items: center;
-  flex-wrap: wrap;
   width: fit-content;
   gap: 1rem;
 }
 
 .social-icon {
-  display: flex;
-  justify-content: center;
-  align-items: center;
   padding: 1rem;
   border: 5px solid;
   width: 50px;
