@@ -1,0 +1,59 @@
+.auth-wrapper {
+  max-width: 50rem;
+  margin: 2rem auto;
+  background-color: var(--default-hover);
+  box-shadow: 0 0 5px rgb(0 0 0 / 60%);
+  padding: 3rem;
+}
+
+.auth-body {
+  gap: 2rem;
+}
+
+.auth-head {
+  font-size: var(--font-s-xl);
+  font-weight: var(--font-w-semibold);
+  color: var(--text-color);
+  text-align: center;
+}
+
+.form-container {
+  gap: 1.5rem;
+}
+
+.input-field {
+  border: 3px solid var(--grey);
+}
+
+.input-field:focus {
+  border: 3px solid var(--primary-color);
+}
+
+.auth-form-link {
+  font-size: var(--font-s-base);
+  font-weight: var(--font-w-medium);
+  color: var(--active-color);
+  transition: all 0.3s ease-in-out;
+}
+
+.auth-form-link:hover {
+  color: var(--active-hover);
+}
+
+.auth-form-ask {
+  font-size: var(--font-s-base);
+  font-weight: var(--font-w-medium);
+  color: var(--white);
+}
+
+.auth-form-ask-link {
+  font-size: var(--font-s-base);
+  font-weight: var(--font-w-medium);
+  color: var(--text-color);
+  text-decoration: underline;
+  transition: all 0.3s ease-in-out;
+}
+
+.auth-form-ask-link:hover {
+  color: var(--active-color);
+}
